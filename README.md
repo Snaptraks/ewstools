@@ -36,7 +36,7 @@ The package provides:
 
 ## Install
 
-Requires Python 3.8 or later. You can install `ewstools` with pip using the commands
+Requires Python between 3.8 and 3.11. You can install `ewstools` with pip using the commands
 
 ```bash
 pip install --upgrade pip
