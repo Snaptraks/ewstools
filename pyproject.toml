@@ -29,6 +29,11 @@ classifiers = [
 [project.urls]
 "Homepage" = "https://github.com/ThomasMBury/ewstools"
 
+[project.optional-dependencies]
+tf = [
+    "tensorflow>=2.10,<=2.16 ; sys_platform != 'win32'",
+]
+
 [tool.setuptools.packages]
 find = {}
 
